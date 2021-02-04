@@ -4,7 +4,8 @@
   "description": "Aprendiendo asincronismo en javascript",
   "main": "index.js",
   "scripts": {
-    "callback": "node src/callback/index.js"
+    "callback": "node src/callback/index.js",
+    "callback:api": "node src/callback/api.js"
   },
   "keywords": [
     "callback",
@@ -13,5 +14,8 @@
     "await"
   ],
   "author": "Raúl González",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
